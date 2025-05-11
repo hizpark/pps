@@ -1,0 +1,8 @@
+parameters:
+    level: pps.stan_level
+    phpVersion: pps.stan_php_version
+    paths:
+        - src
+        - tests
+includes:
+    - vendor/phpstan/phpstan-phpunit/extension.neon

@@ -1,0 +1,21 @@
+{
+    "main": "bin/pps",
+    "output": "dist/pps.phar",
+    "files": [
+        "templates/php/.github/workflows/ci.yml",
+        "templates/php/.editorconfig",
+        "templates/php/.gitattributes.dist",
+        "templates/php/.gitignore",
+        "templates/php/.php-cs-fixer.dist.php",
+        "templates/php/.pps.placeholders.php"
+    ],
+    "directories": [
+        "bin",
+        "src",
+        "templates",
+        "vendor"
+    ],
+    "check-requirements": false,
+    "compression": "GZ",
+    "algorithm": "SHA256"
+}
