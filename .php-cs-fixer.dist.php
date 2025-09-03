@@ -16,7 +16,9 @@ $finder = PhpCsFixer\Finder::create()
                 . DIRECTORY_SEPARATOR . '.php-cs-fixer.dist.php',
     ]);
 
-return (new PhpCsFixer\Config())
+$config = new PhpCsFixer\Config();
+
+return $config
     ->setRiskyAllowed(true)
     ->setRules([
         // ==================== 基礎規範 ====================

@@ -2,7 +2,7 @@
     "name": "pps.vendor/pps.repo_name",
     "description": "pps.repo_description",
     "keywords": [],
-    "type": "library",
+    "type": "pps.repo_type",
     "license": "MIT",
     "authors": [
         {
